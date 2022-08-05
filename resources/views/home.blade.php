@@ -14,7 +14,8 @@
                         </div>
                     @endif
 
-                    {{ __('You are logged in!') }}
+                    {{ __('Bienvenido al crud de laravel 9') }}
+                    <a href="{{ url('/products') }}" class="text-lg text-gray-700 dark:text-gray-500 underline">Cargar productos</a>
                 </div>
             </div>
         </div>
